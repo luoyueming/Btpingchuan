@@ -1,0 +1,14 @@
+<div class="m-index">
+  <div class="l-container">
+
+  </div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home">首页</li>
+      <li action-type="switch.tabs" data-tag="Gshoop">商家</li>
+      <li action-type="switch.tabs" data-tag="My">个人中心</li>
+      <li action-type="switch.tabs" data-tag="share">分享</li>
+    </ul>
+  </footer>
+
+</div>

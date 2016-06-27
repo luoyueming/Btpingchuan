@@ -1,0 +1,45 @@
+<div class="goos-shop">
+  <header>
+     <ul>
+       <li class="yo-ico">&#xe601;</li>
+       <li>商家列表</li>
+       <li></li>
+     </ul>
+ </header>
+  <div class="Lookfor">
+    <b class="yo-ico">&#xe684;</b>
+    <input type="text" placeholder='请输入商家名称关键字'>
+  </div>
+  <nav>
+    <ul>
+      <li><i>全部分类</i><b class="yo-ico">&#xe698;</b></li>
+      <li><i>离我最近</i><b class="yo-ico">&#xe698;</b></li>
+      <li><i>默认排序</i><b class="yo-ico">&#xe698;</b></li>
+      <li><i>地图模式</i></li>
+    </ul>
+  </nav>
+<section spa-widget="scroll" data-scroll-id="homeHotScroll">
+  <div >
+    <div class="head">
+        <!-- <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/> -->
+        下拉刷新...
+    </div>
+    <div ms-repeat-value="livelist">
+      <div><img ms-src="value.imgsrc"></div>
+      <ul>
+        <li ms-text="value.title"></li>
+        <li ><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b></li>
+        <li ms-text="value.tipcal">丽人亲子</li>
+        <li ms-text="value.shang">商</li>
+      </ul>
+    </div>
+    <div class="foot">
+        <!-- <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/> -->
+        <span>加载中...</span>
+    </div>
+ </div>
+
+
+</section>
+
+</div>

@@ -1,0 +1,132 @@
+<div class="m-home">
+  <header>
+     <ul>
+       <li></li>
+       <li>魅力平川</li>
+       <li class="yo-ico">&#xe654;</li>
+     </ul>
+ </header>
+  <nav>
+     <div>
+       <i>商品</i><b class="yo-ico">&#xe64f;</b>
+     </div>
+     <p>
+       <input type="text" placeholder="请输入商品名称关键字">
+       <b class="yo-ico">&#xe684;</b>
+     </p>
+   </nav>
+
+        <section spa-widget="scroll">
+          <div>
+         <div class="banner">
+           <div class="swiper-container">
+             <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                 <img src="/Btpingchuan/images/p1.jpg" />
+               </div>
+               <div class="swiper-slide">
+                 <img src="/Btpingchuan/images/p1.jpg" />
+               </div>
+               <div class="swiper-slide">
+                 <img src="/Btpingchuan/images/p1.jpg" />
+               </div>
+               <div class="swiper-slide">
+                 <img src="/Btpingchuan/images/p1.jpg" />
+               </div>
+               <div class="swiper-slide">
+                 <img src="/Btpingchuan/images/p1.jpg" />
+               </div>
+             </div>
+             <!-- 如果需要分页器 -->
+             <div class="swiper-pagination"></div>
+           </div>
+         </div>
+
+         <div class="fuc">
+           <ul>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+           </ul>
+           <ul>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+           </ul>
+           <ul>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+             <li>
+               <img src="/Btpingchuan/images/p2_05.jpg">
+               <b>服装饰品</b>
+             </li>
+           </ul>
+         </div>
+
+         <div class="detai">
+           <ul>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+             <li></li>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+           </ul>
+           <ul>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+             <li></li>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+           </ul>
+           <ul>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+             <li></li>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+           </ul>
+           <ul>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+             <li></li>
+             <li><img src="/Btpingchuan/images/mv1.jpg"></li>
+           </ul>
+         </div>
+       </div>
+       </section>
+
+
+
+  </div>

@@ -1,0 +1,342 @@
+.m-index{
+  .l-container{
+    .my{
+      background: #fff;
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header{
+        @include box-sizing(border-box);
+        border-bottom: 1px solid #d6d6d6;
+        background:#fff ;
+          height: .44rem;
+          ul{
+            @include flexbox();
+            height: 100%;
+            li {
+              height: 100%;
+              width: 100%;
+              &:first-child{
+                width: .44rem;
+                text-align: center;
+                color: red;
+                line-height: .44rem;
+                font-size: .20rem;
+
+              }
+              &:last-child{
+                width: .44rem;
+                text-align: center;
+                color: #000;
+                line-height: .44rem;
+                font-size: .20rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+                width: 100%;
+                text-align: center;
+                line-height: .44rem;
+                color: #000;
+                font-size: .20rem;
+                div{
+                  div{
+                    div{
+                      display: none;
+
+                    }
+                    .active{
+                      display: block;
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+
+        }
+        section{
+          @include flex(1);
+          height: 100%;
+          width: 100%;
+          background-color:#a89fa0;
+          text-align: center;
+          padding-left: 0.13rem;
+          @include box-sizing(border-box);
+          ul{
+            @include flexbox();
+            height: 0.37rem;
+            width: 2.94rem;
+            text-align: center;
+
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid white;
+            @include border-radius(.1rem);
+            li{
+              height: 100%;
+              width:1.44rem;
+              text-align: center;
+              line-height: 0.37rem;
+              border: 1px solid white;
+              @include border-radius(.1rem);
+              background: rgba(107,121,153,0.7);
+              color: rgba(255,255,255,0.7);
+              font-size: 0.14rem;
+              &:first-child{
+                 @include flex(1);
+                 width:1.44rem;
+                 margin-right: -0.2rem;
+
+              }
+              &:last-child{
+                  @include flex(1);
+                  width:1.44rem;
+                  margin-left: -0.2rem;
+              }
+
+            }
+            .active{
+              background: rgba(126,136,164,1);
+              color: rgba(255,255,255,1);
+              z-index: 1000;
+            }
+          }
+          .login{
+            width: 2.94rem;
+            height: 3.22rem;
+            form{
+              width: 2.94rem;
+              height: 3.22rem;
+              @include flexbox();
+              @include flex-direction(column);
+
+                .inp{
+                  width: 100%;
+                  height:0.76rem;
+                  border:  1px solid #fff;
+                  @include box-sizing(border-box);
+                  @include border-radius(.1rem);
+                  @include flexbox();
+                  @include flex-direction(column);
+                  overflow: hidden;
+                  input{
+                    @include box-sizing(border-box);
+                      padding-left:0.53rem;
+                      border: none;
+                      @include flex(1);
+                      width: 100%;
+                      height: 0.36rem;
+                      overflow: hidden;
+                      background: #9a9ca8;
+
+                        &:nth-child(1){
+                        border-bottom:1px solid #fff;
+                        background-image:  url(/Btpingchuan/images/cellphone.jpg);
+                        background-position: 0.19rem center;
+                        background-repeat: no-repeat;
+                        background-size:5%;
+                      }
+                        &:nth-child(2){
+                        border:none;
+                        background-image:  url(/Btpingchuan/images/keys.jpg);
+                        background-position: 0.19rem center;
+                        background-repeat: no-repeat;
+                        background-size:4%;
+                      }
+                  }
+                  ::-webkit-input-placeholder{
+                    color:#f7f7f7;
+                    font-size: .15rem;
+                 }
+                }
+                .tip{
+                  @include flexbox();
+                   width: 100%;
+                   text-align: right;
+                   position: relative;
+                   p{
+                     position: absolute;
+                     right: 0;
+                     width:0.5rem;
+                     color: #fff;
+                     margin-top: 0.05rem;
+                     padding-bottom: 0.02rem;
+                     border-bottom: 1px solid #fff;
+                     text-align: right;
+                     font-size: 0.11rem;
+                   }
+                }
+               button{
+                 margin-top: 0.6rem;
+                 width: 2.9rem;
+                 height: 0.4rem;
+                 text-align: center;
+                 line-height: 0.4rem;
+                 color: #f8ffff;
+                 background: #ff5722;
+                 border: none;
+                 @include border-radius(.07rem);
+                 letter-spacing:0.3rem ;
+                 padding-left: .3rem;
+                @include box-sizing(border-box);
+               }
+
+
+            }
+          }
+
+          .register{
+              width: 2.94rem;
+              height: 3.22rem;
+              form{
+                width: 2.94rem;
+                height: 3.22rem;
+                @include flexbox();
+                @include flex-direction(column);
+
+                  .inp{
+                    width: 100%;
+                    height:1.14rem;
+                    border:  1px solid #fff;
+                    @include box-sizing(border-box);
+                    @include border-radius(.1rem);
+                    @include flexbox();
+                    @include flex-direction(column);
+                    overflow: hidden;
+                    position: relative;
+                    input{
+                      @include box-sizing(border-box);
+                        padding-left:0.53rem;
+                        border: none;
+                        @include flex(1);
+                        width: 100%;
+                        height: 0.36rem;
+                        overflow: hidden;
+                        background: #9a9ca8;
+
+                          &:nth-child(1){
+                          border-bottom:1px solid #fff;
+                          background-image:  url(/Btpingchuan/images/cellphone.jpg);
+                          background-position: 0.19rem center;
+                          background-repeat: no-repeat;
+                          background-size:5%;
+                        }
+                          &:nth-child(3){
+                          border:none;
+                          background-image:  url(/Btpingchuan/images/keys.jpg);
+                          background-position: 0.19rem center;
+                          background-repeat: no-repeat;
+                          background-size:4%;
+                          border-top: 1px solid #fff;
+                        }
+                        &:nth-child(2){
+                        border:none;
+                        background-image:  url(/Btpingchuan/images/informa.jpg);
+                        background-position: 0.12rem center;
+                        background-repeat: no-repeat;
+                        background-size:8%;
+                      }
+                    }
+
+                    ::-webkit-input-placeholder{
+                      color:#f7f7f7;
+                      font-size: .15rem;
+                   }
+                   .getY{
+                     position: absolute;
+                     right:0;
+                     top:0.45rem;
+                     width: 0.83rem;
+                     height:0.25rem;
+                     text-align: center;
+                     color: #fff;
+                     font-size:0.13rem;
+                     line-height: 0.25rem;
+                     border-left:1px solid #fff;
+
+                   }
+                  }
+                  .tip{
+                    @include flexbox();
+                    height: 0.3rem;
+                    width: 100%;
+                    line-height: 0.3rem;
+                    height: 0.3rem;
+                    color:#fff;
+                    margin-top: 0.19rem;
+                    input{
+                      height: 0.3rem;
+                      color:#fff;
+                      border: none;
+                      border: 1px solid #fff;
+                      @include box-sizing(border-box);
+                    }
+                    p{
+                      font-size: 0.12rem;
+                    }
+                  }
+                 button{
+                   margin-top: 0.41rem;
+                   width: 2.9rem;
+                   height: 0.4rem;
+                   text-align: center;
+                   line-height: 0.4rem;
+                   color: #f8ffff;
+                   background: #ff5722;
+                   border: none;
+                   @include border-radius(.07rem);
+                   letter-spacing:0.3rem ;
+                   padding-left: .3rem;
+                  @include box-sizing(border-box);
+                 }
+
+              }
+              .set{
+                height:0.17rem;
+                margin-top: -1rem;
+                color: #fff;
+                text-align: center;
+                padding-left: 37%;
+                z-index:10000;
+                div{
+                  width:0.54rem;
+                  display: block;
+                  height:0.17rem;
+                  @include box-sizing(border-box);
+                  border-bottom: 1px solid #fff;
+                  padding-bottom: 0.02rem;
+                  font-size: 0.12rem;
+
+                }
+              }
+
+          }
+          .set{
+            height:0.17rem;
+            margin-top: -1rem;
+            color: #fff;
+            text-align: center;
+            padding-left: 37%;
+            z-index:10000;
+            div{
+              width:0.54rem;
+              display: block;
+              height:0.17rem;
+              @include box-sizing(border-box);
+              border-bottom: 1px solid #fff;
+              padding-bottom: 0.02rem;
+              font-size: 0.12rem;
+
+            }
+          }
+
+        }
+
+      }
+    }
+
+  }

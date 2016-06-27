@@ -1,0 +1,58 @@
+<div class="my">
+  <header>
+     <ul>
+       <li class="yo-ico">&#xe601;</li>
+       <li>
+         <div class="swiper-container" id="mytile-swiper">
+           <div class="swiper-wrapper changeTitle">
+             <div class="swiper-slide active" >登录</div>
+             <div class="swiper-slide">注册</div>
+           </div>
+       </div>
+     </li>
+
+       <li></li>
+     </ul>
+  </header>
+  <section>
+    <ul class="slideNav">
+      <li class="active" action-type="tap.slide">登录</li>
+      <li action-type="tap.slide">注册</li>
+    </ul>
+    <div class="swiper-container" id="my-swiper">
+      <div class="swiper-wrapper">
+
+          <div class="login swiper-slide" >
+             <form>
+               <div class="inp">
+                  <input type="text" placeholder="请输入您的手机号">
+                  <input type="text" placeholder="5-8位数字或字母">
+               </div>
+               <div class="tip"><p>忘记密码</p></div>
+               <button type="button" name="button">登录</button>
+             </form>
+          </div>
+
+          <div class="register swiper-slide">
+                  <form>
+                    <div class="inp">
+                       <input type="text" placeholder="请输入您的手机号">
+                       <input type="text" placeholder="请输入验证码">
+                       <input type="text" placeholder="5-8位数字或字母">
+                       <div class="getY">获取验证码</div>
+                    </div>
+                    <div class="tip"><input type="checkbox" checked><p>我已接受登录服务条款</p></div>
+                    <button type="button" name="button">注册</button>
+
+                  </form>
+
+                  <div class="set"><div>隐私条款</div></div>
+          </div>
+      </div>
+    </div>
+
+    <div class="set"><div>隐私条款</div></div>
+  </section>
+
+
+</div>

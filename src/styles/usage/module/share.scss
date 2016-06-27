@@ -1,0 +1,53 @@
+.m-index{
+  .l-container{
+    .share{
+      background: #fff;
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header{
+        @include box-sizing(border-box);
+        border-bottom: 1px solid #d6d6d6;
+        background:#fff ;
+          height: .44rem;
+          ul{
+            @include flexbox();
+            height: 100%;
+            li {
+              height: 100%;
+              &:first-child{
+                width: .44rem;
+                text-align: center;
+                color: red;
+                line-height: .44rem;
+                font-size: .20rem;
+
+              }
+              &:last-child{
+                width: .44rem;
+                text-align: center;
+                color: #000;
+                line-height: .44rem;
+                font-size: .20rem;
+              }
+              &:nth-child(2){
+                @include flex(1);
+                width: 100%;
+                text-align: center;
+                line-height: .44rem;
+                color: #000;
+                font-size: .20rem;
+              }
+            }
+
+          }
+
+        }
+
+      }
+    }
+
+  }
