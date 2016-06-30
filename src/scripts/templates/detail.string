@@ -1,0 +1,62 @@
+<div class="detail" spa-widget="scroll">
+  <div>
+  <header>
+     <ul>
+       <li class="yo-ico">&#xe605;</li>
+       <li>商家详情</li>
+       <li class="yo-ico" action-type="tap.my">&#xe654;</li>
+     </ul>
+ </header>
+ <section>
+   <div class="detail-Title">
+     <div class="Timg"><img src="/Btpingchuan/images/p3.jpg"> <i class="yo-ico">&#xe649;</i></div>
+     <ul class="mm">
+       <li>蓝胖子</li>
+       <li><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b></li>
+       <li>餐饮娱乐</li>
+     </ul>
+     <div class="collection">
+       <i class="yo-ico">&#xf0061;</i>
+       <b>收藏</b>
+     </div>
+   </div>
+   <div class="hei5">
+   </div>
+   <div class="adress">
+     <div class="adress_L">
+       <i class="yo-ico">&#xe648;</i>
+       <b>白银市平川区仿古街蓝胖子</b>
+     </div>
+     <div class="phone yo-ico">
+         &#xe601;
+     </div>
+   </div>
+   <div class="hei5">
+   </div>
+   <ul class="comment">
+     <li>点评 （暂无评论）</li>
+     <li>></li>
+   </ul>
+   <div class="hei5">
+   </div>
+   <div class="shop-detail">
+     <div>商家详情</div>
+   </div>
+   <div class="detail_D">
+     <img src="/Btpingchuan/images/detail.jpg">
+   </div>
+   <div class="detail_D">
+     <img src="/Btpingchuan/images/detail.jpg">
+   </div>
+ </section>
+ </div>
+</div>
+
+<footer>
+  <ul class="foot-C">
+    <li  action-type="switch.tabs" data-tag="home">首页</li>
+    <li action-type="switch.tabs" data-tag="Gshoop" class="active">商家</li>
+    <li action-type="switch.tabs" data-tag="My">个人中心</li>
+    <li action-type="switch.tabs" data-tag="share">分享</li>
+  </ul>
+</footer>

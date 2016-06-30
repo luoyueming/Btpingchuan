@@ -5,6 +5,7 @@
 @import "./core/swiper-3.3.1.min.css";
 
 
+
 // layout
 spa-app {
     position: absolute;
@@ -24,9 +25,12 @@ spa-view {
 }
 
 
+
 @import "./module/home";
 @import "./module/index";
 @import "./module/guide";
 @import "./module/goos-shop";
 @import "./module/my";
 @import "./module/share";
+@import "./module/shareTo";
+@import "./module/detail";

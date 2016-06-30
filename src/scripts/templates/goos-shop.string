@@ -1,7 +1,7 @@
 <div class="goos-shop">
   <header>
      <ul>
-       <li class="yo-ico">&#xe601;</li>
+       <li class="yo-ico" action-type="back">&#xe605;</li>
        <li>商家列表</li>
        <li></li>
      </ul>
@@ -24,9 +24,9 @@
         <!-- <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/> -->
         下拉刷新...
     </div>
-    <div ms-repeat-value="livelist">
-      <div><img ms-src="value.imgsrc"></div>
-      <ul>
+    <div ms-repeat-value="livelist" >
+      <div action-type="goto.detail"><img ms-src="value.imgsrc"></div>
+      <ul action-type="goto.detail">
         <li ms-text="value.title"></li>
         <li ><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b><b class="yo-ico">&#xf0061;</b></li>
         <li ms-text="value.tipcal">丽人亲子</li>

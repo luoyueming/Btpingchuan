@@ -1,0 +1,22 @@
+
+<form>
+  <fieldset>
+    <legend>分享到</legend>
+    <ul class="box">
+      <li>
+        <i class="yo-ico">&#xe6d3;</i>
+        <b>朋友圈</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe636;</i>
+        <b>朋友圈</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe82c;</i>
+        <b>朋友圈</b>
+      </li>
+
+    </ul>
+
+  </fieldset>
+</form>

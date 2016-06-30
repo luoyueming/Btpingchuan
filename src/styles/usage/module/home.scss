@@ -1,3 +1,4 @@
+@import "../../lib/widget/yo-dialog";
 .m-index{
   .l-container{
     .m-home{
@@ -5,16 +6,19 @@
       @include flexbox();
       @include flex-direction(column);
       height: 100%;
+     width: 100%;
       > * {
         width: 100%;
       }
       header{
         background:url(/Btpingchuan/images/bg_head.png) no-repeat ;
           height: .44rem;
+          width: 100%;
           ul{
 
             @include flexbox();
             height: 100%;
+              width: 100%;
             li {
               height: 100%;
               &:first-child{
@@ -200,7 +204,7 @@
             }
 
           }
-        
+
         }
       }
     }

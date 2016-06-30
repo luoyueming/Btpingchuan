@@ -9,7 +9,8 @@ require('./views/my.js');
 require('./views/index.js');
 require('./views/home.js');
 require('./views/share.js');
-
+require('./views/shareTo.js');
+require('./views/detail.js');
 
 //SPA设置
 SPA.config({

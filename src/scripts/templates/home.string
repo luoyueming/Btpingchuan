@@ -1,9 +1,14 @@
+
+
+
+
+
 <div class="m-home">
   <header>
      <ul>
        <li></li>
        <li>魅力平川</li>
-       <li class="yo-ico">&#xe654;</li>
+       <li class="yo-ico" action-type="tap.my">&#xe654;</li>
      </ul>
  </header>
   <nav>

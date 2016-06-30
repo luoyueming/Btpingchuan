@@ -1,7 +1,7 @@
 .m-index{
   .l-container{
     .share{
-      background: #fff;
+      background: #eef0f1;
       @include flexbox();
       @include flex-direction(column);
       height: 100%;
@@ -45,6 +45,37 @@
 
           }
 
+        }
+        section{
+          @include box-sizing(border-box);
+          @include flex(1);
+          width: 100%;
+          padding-left:0.08rem;
+          ul{
+            @include box-sizing(border-box);
+            padding-left: 0.15rem;
+            background: #fff;
+            height:0.81rem;
+            width: 3.04rem;
+            line-height: 0.81rem;
+            border-bottom:1px solid #d6d6d6;
+            @include flexbox();
+            li{
+
+              &:nth-child(1){
+                width:0.68rem;
+                img{
+                  width: 0.59rem;
+                  height: 0.59rem;
+
+                }
+              }
+              &:nth-child(2){
+                width:0.68rem;
+                @include flex(1);
+              }
+            }
+          }
         }
 
       }

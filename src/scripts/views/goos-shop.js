@@ -1,5 +1,5 @@
 var tplGshoop = require("../templates/goos-shop.string");
-
+var util = require('../utis/fn.js');
 SPA.defineView('Gshoop',{
   html:tplGshoop,
   plugins: ['delegated',{
@@ -141,5 +141,29 @@ SPA.defineView('Gshoop',{
 
 
 
+  },
+
+  bindActions: {
+    'back': function(e){
+      this.parentView.modules.content.launch('home');
+      //util.setFocus('home');
+      // var $fot=$('.foot-C li');
+       //util.setFocus('home');
+      // console.log($('.foot-C li').eq(index));
+       $('.foot-C li').eq(0).addClass('active').siblings().removeClass('active');
+     },
+     'goto.detail':function (e,data) {
+       SPA.open('detail');
+     }
+
+          //切换子视图
+          //this.modules.content.launch(data.tag)
+
+
+    //  this.hide();
+      // this.modules.content.launch('home');
+      //console.log(this.parent);
+    //  SPA.open('home');
+      //console.log(0);
   }
 });

@@ -1,7 +1,7 @@
 <div class="my">
   <header>
      <ul>
-       <li class="yo-ico">&#xe601;</li>
+       <li class="yo-ico" action-type="back">&#xe605;</li>
        <li>
          <div class="swiper-container" id="mytile-swiper">
            <div class="swiper-wrapper changeTitle">
@@ -46,7 +46,7 @@
 
                   </form>
 
-                  <div class="set"><div>隐私条款</div></div>
+                  <!-- <div class="set"><div>隐私条款</div></div> -->
           </div>
       </div>
     </div>

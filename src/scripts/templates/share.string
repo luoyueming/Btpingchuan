@@ -1,10 +1,28 @@
 <div class="share">
   <header>
      <ul>
-       <li class="yo-ico">&#xe601;</li>
+       <li class="yo-ico" action-type="back">&#xe605;</li>
        <li>分享</li>
        <li></li>
      </ul>
   </header>
+  <section>
+    <ul>
+      <li><img src="/Btpingchuan/images/shareToW.jpg"></li>
+      <li>分享到微博</li>
+    </ul>
+    <ul>
+      <li><img src="/Btpingchuan/images/shareToC.jpg"></li>
+      <li>分享到微信</li>
+    </ul>
+    <ul>
+      <li><img src="/Btpingchuan/images/shareToF.jpg"></li>
+      <li>分享到朋友圈</li>
+    </ul>
+    <ul>
+      <li><img src="/Btpingchuan/images/shareToS.jpg"></li>
+      <li>分享到短信</li>
+    </ul>
+  </section>
 
 </div>

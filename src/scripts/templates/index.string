@@ -3,7 +3,7 @@
 
   </div>
   <footer>
-    <ul>
+    <ul class="foot-C">
       <li class="active" action-type="switch.tabs" data-tag="home">首页</li>
       <li action-type="switch.tabs" data-tag="Gshoop">商家</li>
       <li action-type="switch.tabs" data-tag="My">个人中心</li>

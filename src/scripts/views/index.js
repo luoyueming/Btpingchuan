@@ -7,7 +7,7 @@ SPA.defineView('index', {
   plugins: ['delegated'],
   modules : [{
     name: 'content',//子视图的名字
-    views: ['home','Gshoop','My','share'],
+    views: ['home','Gshoop','My','share',"detail"],
     defaultTag: 'home',
     container: '.l-container'
   }],

@@ -11,7 +11,16 @@ SPA.defineView('My',{
       //console.log(0);
       this.mySwiper.slideTo($(e.el).index())
 
-    }
+    },
+    'back': function(e){
+      this.parentView.modules.content.launch('Gshoop');
+      //util.setFocus('home');
+      // var $fot=$('.foot-C li');
+       //util.setFocus('home');
+      // console.log($('.foot-C li').eq(index));
+       $('.foot-C li').eq(1).addClass('active').siblings().removeClass('active');
+     }
+
   },
 
   bindEvents: {
@@ -32,6 +41,7 @@ SPA.defineView('My',{
 
 
      }
+
 
 
   }
